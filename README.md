@@ -17,11 +17,11 @@ Number and name of feature: Display Images
 
 Estimate of time needed to complete: 90 minutes
 
-Start time: 1425
+Start time: 1420
 
-Finish time: _____
+Finish time: 1540
 
-Actual time needed to complete: _____
+Actual time needed to complete: 70 minutes
 
 ### Feature #2: Allow Users to Favorite Idividual Beasts
 
