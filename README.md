@@ -31,9 +31,9 @@ Estimate of time needed to complete: 120 minutes
 
 Start time: 1610
 
-Finish time: _____
+Finish time: 1725
 
-Actual time needed to complete: _____
+Actual time needed to complete: 75
 
 ### Feature #3: Bootstrap
 
@@ -41,7 +41,7 @@ Number and name of feature: Bootstrap
 
 Estimate of time needed to complete: 120 minutes
 
-Start time: _____
+Start time: 0455
 
 Finish time: _____
 
@@ -49,6 +49,8 @@ Actual time needed to complete: _____
 
 Sources:
 
-1. Utilized ChatGPT to solve errors experience when attempting to pass props from json file. src = https://chat.openai.com/share/c1b9405b-54ab-4a63-a3ac-f8dc852787d0
+1. Used ChatGPT to solve errors experience when attempting to pass props from json file. src = https://chat.openai.com/share/c1b9405b-54ab-4a63-a3ac-f8dc852787d0
 
-2. 
+2. Used ChatGPT to assist with "hook" error and inability to refer to `{useStatus}`
+
+3. 

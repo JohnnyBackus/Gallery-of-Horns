@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
+import Card from 'react-bootstrap/Card';
 // import styles from './hornedbeast.module.css';
-
 
 
 function HornedBeast(props) {
@@ -11,10 +11,16 @@ function HornedBeast(props) {
     
   return (
     <>
-    <h2>{props.title}</h2>
-    <img src={props.src} alt={props.alt} title={props.title} onClick={handleClick} />
-    <p>{props.description}</p>
-    <p>{'\u2764'} Favorites: {favorite}</p>
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={props.src} alt={props.alt} title={props.title} onClick={handleClick} />
+      <Card.Body>
+        <Card.Title>{props.title}</Card.Title>
+        <Card.Text>
+          <p>{props.description}</p>
+          <p><span style={{ color: 'red' }}>&#10084;</span> Favorites: {favorite}</p> 
+        </Card.Text>
+      </Card.Body>
+    </Card>
     </>
   )
 }
