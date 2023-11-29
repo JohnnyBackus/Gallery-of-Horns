@@ -1,0 +1,11 @@
+.hdr {
+    background: powderblue;
+    border: 2px ridge purple;
+    color: rgb(115, 84, 6);
+    text-align: center;
+    margin: 5px;
+}
+
+p { 
+    font-family: cursive;
+}
