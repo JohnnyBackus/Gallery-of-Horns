@@ -11,11 +11,11 @@ Currently, two official plugins are available:
 
 For each of the features listed below, make an estimate of the time it will take you to complete the feature, and record your start and finish times for that feature.
 
-### Feature #1: Display Images
+### Feature #1: Display a Modal
 
-Number and name of feature: Display Images
+Number and name of feature: Display a Modal
 
-Estimate of time needed to complete: 90 minutes
+Estimate of time needed to complete: 120 minutes
 
 Start time: 1420
 
@@ -23,29 +23,6 @@ Finish time: 1540
 
 Actual time needed to complete: 70 minutes
 
-### Feature #2: Allow Users to Favorite Idividual Beasts
-
-Number and name of feature: Allow Users to Favorite Individual Beasts
-
-Estimate of time needed to complete: 120 minutes
-
-Start time: 1610
-
-Finish time: 1725
-
-Actual time needed to complete: 75
-
-### Feature #3: Bootstrap
-
-Number and name of feature: Bootstrap
-
-Estimate of time needed to complete: 120 minutes
-
-Start time: 0505
-
-Finish time: 0720
-
-Actual time needed to complete: 135 minutes
 
 Sources:
 
