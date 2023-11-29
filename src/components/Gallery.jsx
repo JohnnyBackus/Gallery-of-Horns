@@ -1,11 +1,11 @@
 import React from 'react';
-import styles from './gallery.module.css';
+// import styles from './gallery.module.css';
 import HornedBeast from './HornedBeast.jsx';
 
 function Gallery(props) {
   return (
     <>
-    {props.data.map((beast) => (
+    {props.beastData.map((beast) => (
       <HornedBeast 
         key={beast._id} 
         title={beast.title} 
