@@ -4,7 +4,7 @@ import styles from './header.module.css';
 function Header(props) {
   return (
     <header className={styles.hdr}>
-      <h1>{props.title}</h1>
+      <h1></h1>
     </header>
   )
 }
