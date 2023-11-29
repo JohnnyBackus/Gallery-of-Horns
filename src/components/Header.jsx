@@ -4,7 +4,8 @@ import styles from './header.module.css';
 function Header(props) {
   return (
     <header className={styles.hdr}>
-      <h1></h1>
+      <h1>Magnificent Horned Beasts</h1>
+      <p>Click the images to select your favorites!</p>
     </header>
   )
 }

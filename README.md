@@ -31,9 +31,9 @@ Estimate of time needed to complete: 120 minutes
 
 Start time: 1610
 
-Finish time: _____
+Finish time: 1725
 
-Actual time needed to complete: _____
+Actual time needed to complete: 75
 
 ### Feature #3: Bootstrap
 
@@ -41,14 +41,16 @@ Number and name of feature: Bootstrap
 
 Estimate of time needed to complete: 120 minutes
 
-Start time: _____
+Start time: 0505
 
-Finish time: _____
+Finish time: 0720
 
-Actual time needed to complete: _____
+Actual time needed to complete: 135 minutes
 
 Sources:
 
-1. Utilized ChatGPT to solve errors experience when attempting to pass props from json file. src = https://chat.openai.com/share/c1b9405b-54ab-4a63-a3ac-f8dc852787d0
+1. Used ChatGPT to solve errors experience when attempting to pass props from json file. src = https://chat.openai.com/share/c1b9405b-54ab-4a63-a3ac-f8dc852787d0
 
-2. 
+2. Used ChatGPT to assist with "hook" error and inability to refer to `{useStatus}`. src = https://chat.openai.com/share/07e61568-4b2f-4704-a519-bfbe5fdbe833
+
+3. Some collaboration with Xin D, Brendan H, and Kyle A. Specifically for how to render heart; join discussion regarding how to use BootStrap.
