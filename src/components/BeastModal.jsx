@@ -3,7 +3,6 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Image from 'react-bootstrap/Image';
 
-
 function SelectedBeast(props) {
   return (
     <Modal
@@ -18,7 +17,7 @@ function SelectedBeast(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <Image src={props.src} alt={props.alt} title={props.title} fluid />
+        <Image src={props.src} alt={props.alt} title={props.title} fluid/>
         <p>{props.description}</p>
       </Modal.Body>
       <Modal.Footer>

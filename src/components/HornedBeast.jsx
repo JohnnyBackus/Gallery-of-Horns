@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import Card from 'react-bootstrap/Card';
 import SelectedBeast from './BeastModal.jsx';
-import Image from 'react-bootstrap/Image';
 // import styles from './hornedbeast.module.css';
 
 
