@@ -1,13 +1,16 @@
 import React, {useState} from 'react';
 import Card from 'react-bootstrap/Card';
+import SelectedBeast from './BeastModal.jsx';
 // import styles from './hornedbeast.module.css';
 
 
 function HornedBeast(props) {
-  const [favorite, voteFavorite] = useState(0);
+  const [favorite, setFavorite] = useState(0);
+  const [modalShow, setModalShow] = useState(false);
   const handleClick = () => {
-    voteFavorite(favorite + 1);
-  }
+    setFavorite(favorite + 1);
+    setModalShow(true);
+  };
     
   return (
     <>
@@ -21,8 +24,20 @@ function HornedBeast(props) {
         </Card.Text>
       </Card.Body>
     </Card>
+
+    {modalShow && (
+    <SelectedBeast 
+      src={props.src} 
+      alt={props.alt} 
+      title={props.title} 
+      description={props.description} 
+      show={modalShow}
+      onHide={() => setModalShow(false)}
+      />
+  )}
     </>
-  )
+  );
 }
+
 
 export default HornedBeast;
