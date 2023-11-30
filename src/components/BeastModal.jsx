@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import Image from 'react-bootstrap/Image';
+
 
 function SelectedBeast(props) {
   return (
@@ -16,7 +18,7 @@ function SelectedBeast(props) {
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <img variant="top" src={props.src} alt={props.alt} title={props.title} />
+        <Image src={props.src} alt={props.alt} title={props.title} fluid />
         <p>{props.description}</p>
       </Modal.Body>
       <Modal.Footer>
@@ -25,24 +27,5 @@ function SelectedBeast(props) {
     </Modal>
   );
 }
-
-// function App() {
-//   const [modalShow, setModalShow] = React.useState(false);
-
-//   return (
-//     <>
-//       <Button variant="primary" onClick={() => setModalShow(true)}>
-//         Launch vertically centered modal
-//       </Button>
-
-//       <SelectedBeast
-//         show={modalShow}
-//         onHide={() => setModalShow(false)}
-//       />
-//     </>
-//   );
-// }
-
-// render(<App />);
 
 export default SelectedBeast;

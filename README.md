@@ -19,15 +19,12 @@ Estimate of time needed to complete: 120 minutes
 
 Start time: 1420
 
-Finish time: 1540
+Finish time: 1730
 
-Actual time needed to complete: 70 minutes
-
+Actual time needed to complete: 190 minutes
 
 Sources:
 
-1. Used ChatGPT to solve errors experience when attempting to pass props from json file. src = https://chat.openai.com/share/c1b9405b-54ab-4a63-a3ac-f8dc852787d0
+1. Used ChatGPT for several errors (and earlier code challenge). I had not considered use of a logical operator to render SelectedBeast component prior ChatGPT use. src = https://chat.openai.com/share/670dcd6c-ea9e-4586-b050-aa60a5bbd83a
 
-2. Used ChatGPT to assist with "hook" error and inability to refer to `{useStatus}`. src = https://chat.openai.com/share/07e61568-4b2f-4704-a519-bfbe5fdbe833
-
-3. Some collaboration with Xin D, Brendan H, and Kyle A. Specifically for how to render heart; join discussion regarding how to use BootStrap.
+2. Some collaboration regarding strategy and bug fixes with classmates today. No explicit sharing of code.

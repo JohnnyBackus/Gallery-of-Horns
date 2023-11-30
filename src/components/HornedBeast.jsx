@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Card from 'react-bootstrap/Card';
 import SelectedBeast from './BeastModal.jsx';
+import Image from 'react-bootstrap/Image';
 // import styles from './hornedbeast.module.css';
 
 
@@ -20,7 +21,7 @@ function HornedBeast(props) {
         <Card.Title>{props.title}</Card.Title>
         <Card.Text>
           <p>{props.description}</p>
-          <p><span style={{ color: 'red' }}>&#10084;</span> Favorites: {favorite}</p> 
+          <div><span style={{ color: 'red' }}>&#10084;</span> Favorites: {favorite}</div> 
         </Card.Text>
       </Card.Body>
     </Card>
@@ -38,6 +39,5 @@ function HornedBeast(props) {
     </>
   );
 }
-
 
 export default HornedBeast;
