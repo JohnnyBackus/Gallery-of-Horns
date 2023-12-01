@@ -1,6 +1,7 @@
+/* eslint-disable react/prop-types */
 import React, {useState} from 'react';
 import Card from 'react-bootstrap/Card';
-import SelectedBeast from './BeastModal.jsx';
+import SelectedBeast from './SelectedBeast.jsx';
 // import styles from './hornedbeast.module.css';
 
 
